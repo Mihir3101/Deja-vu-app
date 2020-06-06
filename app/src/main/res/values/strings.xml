@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">déjà vu</string>
+    <string name="d_j_vu">déjà vu</string>
+    <string name="PoweredBy"><p>Welcome to déjà vu <br></br>Powered By:<a href="www.nitk.acc.in">NITK IT Department</a></p></string>
+</resources>

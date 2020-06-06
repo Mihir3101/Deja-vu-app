@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TttGameActivity"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:text="Tic - Tac - Toe"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:textSize="30dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/a00"
+            android:layout_weight="1"
+            android:text="Click ME *_* "
+            android:layout_margin="20dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/a01"
+            android:text="Click ME *_* "
+            android:layout_margin="20dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/a02"
+            android:text="Click ME *_* "
+            android:layout_margin="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/a10"
+            android:layout_weight="1"
+            android:text="Click ME *_* "
+            android:layout_margin="20dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/a11"
+            android:text="Click ME *_* "
+            android:layout_margin="20dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/a12"
+            android:text="Click ME *_* "
+            android:layout_margin="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/a20"
+            android:layout_weight="1"
+            android:text="Click ME *_* "
+            android:layout_margin="20dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/a21"
+            android:text="Click ME *_* "
+            android:layout_margin="20dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/a22"
+            android:text="Click ME *_* "
+            android:layout_margin="20dp"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restart Game"
+        android:id="@+id/restart"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>
